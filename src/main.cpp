@@ -5,9 +5,9 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    sf::RenderWindow window(sf::VideoMode(1000, 700), "SFML works!");
+    sf::CircleShape shape(300.f);
+    shape.setFillColor(sf::Color::Yellow);
 
     while (window.isOpen())
     {
@@ -21,7 +21,6 @@ int main()
         window.clear();
         window.draw(shape);
         window.display();
-        std::cout << "trest" << std::endl;
     }
 
     return 0;

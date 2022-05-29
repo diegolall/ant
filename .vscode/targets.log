@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 29 14:52:19 2022
+# Make data base, printed on Sun May 29 21:53:18 2022
 
 # Variables
 
@@ -121,7 +121,7 @@ XDG_SESSION_DESKTOP = mate
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7401
+GIO_LAUNCHED_DESKTOP_FILE_PID = 34084
 # automatic
 %F = $(notdir $%)
 # environment
@@ -183,7 +183,7 @@ CXX_FLAGS := -Wall -Wextra -std=c++17 -ggdb
 # environment
 IM_CONFIG_PHASE = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d080a58a-036c-4294-b5a9-c1167735fe3b.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-9aa2e2ca-d207-4ed4-844e-515786a12812.sock
 # environment
 COMPIZ_CONFIG_PROFILE = mint
 # environment
@@ -269,23 +269,23 @@ LC_ADDRESS = en_GB.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 7401
+VSCODE_PID = 34084
 # environment
 DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=553588dc96707f4d4e2f7e96629361ea
 # variable set hash-table stats:
-# Load=131/1024=13%, Rehash=0, Collisions=15/161=9%
+# Load=131/1024=13%, Rehash=0, Collisions=16/169=9%
 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
- 
 
 # Directories
 
-# . (device 2051, inode 19667846): 8 files, no impossibilities.
+# . (device 2051, inode 19667846): 10 files, no impossibilities.
 # src (device 2051, inode 19667912): 3 files, no impossibilities.
 
-# 11 files, no impossibilities in 2 directories.
+ 
+# 13 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -298,7 +298,15 @@ all: bin/main
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 Makefile:
@@ -331,32 +339,51 @@ clean:
 # Not a target:
 src/main.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-27 20:17:54.864064928
+#  Last modified 2022-05-29 15:02:36.917842
 #  File has been updated.
 #  Successfully updated.
 
 bin/main: src/main.cpp
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-29 14:51:21.8938951
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-05-29 15:01:59.357839857
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := bin/main
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/main.cpp
+# automatic
+# | := 
+# automatic
+# < := src/main.cpp
+# automatic
+# ^ := src/main.cpp
+# automatic
+# ? := src/main.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
 #  recipe to execute (from 'Makefile', line 20):
 	$(CXX) $(CXX_FLAGS) -I$(INCLUDE) -L$(LIB) $^ -o $@ $(LIBRARIES)
 
 # files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/25=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/26=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 138 B / avg = 7 B
-# current buf: size = 8162 B / used = 138 B / count = 18 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 153 B / avg = 7 B
+# current buf: size = 8162 B / used = 153 B / count = 20 / avg = 7 B
 
-# strcache performance: lookups = 33 / hit rate = 45%
+# strcache performance: lookups = 36 / hit rate = 44%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=2/33=6%
-# Finished Make data base on Sun May 29 14:52:19 2022
+# Load=20/8192=0%, Rehash=0, Collisions=2/36=6%
+# Finished Make data base on Sun May 29 21:53:18 2022
 
  
