@@ -6,7 +6,7 @@
 #include <iostream>
 
 struct Ant{
-    double x,y; //coord
+    float x,y; //coord
 
     void draw_ant(sf::RenderWindow& window){ //draw a ant by pressing the right mouse button
 
