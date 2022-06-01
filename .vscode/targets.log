@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 29 21:53:18 2022
+# Make data base, printed on Mon May 30 16:12:21 2022
 
 # Variables
 
@@ -15,9 +15,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 ?F = $(notdir $?)
 # environment
-PAPERSIZE = a4
-# environment
-DESKTOP_SESSION = mate
+DESKTOP_SESSION = cinnamon
 # default
 .SHELLFLAGS := -c
 # environment
@@ -29,8 +27,6 @@ XDG_SESSION_TYPE = x11
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
-QT_FONT_DPI = 96
-# environment
 GTK3_MODULES = xapp-gtk3-module
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
@@ -39,9 +35,9 @@ GTK3_MODULES = xapp-gtk3-module
 # environment
 XAUTHORITY = /home/ld/.Xauthority
 # environment
-GDMSESSION = mate
-# environment
-XMODIFIERS = @im=ibus
+GDMSESSION = cinnamon
+# default
+MAKE_VERSION := 4.2.1
 # makefile
 CURDIR := /home/ld/Documents/phys/project/cpp/ant
 # makefile
@@ -55,11 +51,9 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 9:39417
+XDG_CONFIG_DIRS = /etc/xdg/xdg-cinnamon:/etc/xdg
 # environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-mate:/etc/xdg
-# environment
-GTK_OVERLAY_SCROLLING = 0
+GTK_OVERLAY_SCROLLING = 1
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # automatic
@@ -69,25 +63,17 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-MAKELEVEL := 0
+MANDATORY_PATH = /usr/share/gconf/cinnamon.mandatory.path
 # environment
-MANDATORY_PATH = /usr/share/gconf/mate.mandatory.path
+XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/ld/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
 # environment
-XDG_DATA_DIRS = /usr/share/mate:/home/ld/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=553588dc96707f4d4e2f7e96629361ea
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-QT_SCALE_FACTOR = 1
-# environment
-MANAGERPID = 1568
-# environment
-CLUTTER_IM_MODULE = ibus
-# environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
-LC_NAME = en_GB.UTF-8
+LC_NAME = de_BE.UTF-8
 # environment
 VSCODE_CWD = /home/ld
 # environment
@@ -99,15 +85,15 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/ld:@/tmp/.ICE-unix/1581,unix/ld:/tmp/.ICE-unix/1581
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/ld-computer:@/tmp/.ICE-unix/1063,unix/ld-computer:/tmp/.ICE-unix/1063
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# environment
-INVOCATION_ID = e2a75b834f714311b6b2d9009a1e2d72
 # makefile (from 'Makefile', line 7)
 LIB := lib
 # default
@@ -117,17 +103,15 @@ XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/ld
 # environment
 LS_COLORS = 
 # environment
-XDG_SESSION_DESKTOP = mate
+XDG_SESSION_DESKTOP = cinnamon
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 34084
+GIO_LAUNCHED_DESKTOP_FILE_PID = 28201
 # automatic
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
-# environment
-GTK_IM_MODULE = ibus
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -139,9 +123,9 @@ QT_QPA_PLATFORMTHEME = qt5ct
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 1657
+SSH_AGENT_PID = 1140
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = MATE
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
 # environment
 GTK_MODULES = gail:atk-bridge
 # environment
@@ -156,52 +140,46 @@ VSCODE_CODE_CACHE_PATH = /home/ld/.config/Code/CachedData/c3511e6c69bb39013c4a4b
 LOGNAME = ld
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+MATHEMATICA_HOME = /usr/local/Wolfram/Mathematica/13.0
 # automatic
 +F = $(notdir $+)
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-MAKE_VERSION := 4.2.1
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 XDG_VTNR = 7
 # environment
-CLUTTER_BACKEND = x11
-# environment
-LC_TIME = en_GB.UTF-8
+MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-QT_IM_MODULE = ibus
-# environment
 SHLVL = 0
 # makefile (from 'Makefile', line 2)
 CXX_FLAGS := -Wall -Wextra -std=c++17 -ggdb
 # environment
-IM_CONFIG_PHASE = 1
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-9aa2e2ca-d207-4ed4-844e-515786a12812.sock
-# environment
-COMPIZ_CONFIG_PROFILE = mint
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bbcb3494-61b1-473e-a41a-c8b731e3d32e.sock
 # environment
 XDG_SESSION_ID = c2
 # environment
 USER = ld
 # environment
-LC_MONETARY = en_GB.UTF-8
+LC_MONETARY = de_BE.UTF-8
 # makefile
 .DEFAULT_GOAL := all
 # makefile (from 'Makefile', line 6)
 INCLUDE := include
 # environment
-XDG_CURRENT_DESKTOP = MATE
+XDG_CURRENT_DESKTOP = X-Cinnamon
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-LC_TELEPHONE = en_GB.UTF-8
+LC_TELEPHONE = de_BE.UTF-8
 # default
 MAKE_COMMAND := make
 # default
@@ -225,15 +203,17 @@ MFLAGS = -pqrR
 # environment
 GDK_BACKEND = x11
 # environment
-LC_PAPER = en_GB.UTF-8
+LC_PAPER = de_BE.UTF-8
+# environment
+CINNAMON_VERSION = 5.2.7
 # environment
 QT_ACCESSIBILITY = 1
 # environment
-DEFAULTS_PATH = /usr/share/gconf/mate.default.path
+DEFAULTS_PATH = /usr/share/gconf/cinnamon.default.path
 # default
 MAKEFILES := 
 # environment
-LC_NUMERIC = en_GB.UTF-8
+LC_NUMERIC = de_BE.UTF-8
 # automatic
 <F = $(notdir $<)
 # makefile (from 'Makefile', line 10)
@@ -241,39 +221,33 @@ EXECUTABLE := main
 # makefile (from 'Makefile', line 1)
 CXX := g++
 # environment
-LC_MEASUREMENT = en_GB.UTF-8
+LC_MEASUREMENT = de_BE.UTF-8
 # environment
 LC_ALL = C
 # makefile (from 'Makefile', line 9)
 LIBRARIES := -lsfml-graphics -lsfml-window -lsfml-system
 # environment
-DBUS_STARTER_BUS_TYPE = session
-# environment
-QT4_IM_MODULE = ibus
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
-# environment
-MATE_DESKTOP_SESSION_ID = this-is-deprecated
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-LC_IDENTIFICATION = en_GB.UTF-8
+LC_IDENTIFICATION = de_BE.UTF-8
 # default
 .RECIPEPREFIX := 
 # environment
-LC_ADDRESS = en_GB.UTF-8
+LC_ADDRESS = de_BE.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 34084
-# environment
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=553588dc96707f4d4e2f7e96629361ea
+VSCODE_PID = 28201
 # variable set hash-table stats:
-# Load=131/1024=13%, Rehash=0, Collisions=16/169=9%
+# Load=118/1024=12%, Rehash=0, Collisions=12/156=8%
 
 # Pattern-specific Variable Values
 
@@ -281,10 +255,9 @@ DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=553588dc96707f4d4e2f7e9
 
 # Directories
 
-# . (device 2051, inode 19667846): 10 files, no impossibilities.
-# src (device 2051, inode 19667912): 3 files, no impossibilities.
+# . (device 66306, inode 30806924): 10 files, no impossibilities.
+# src (device 66306, inode 30807014): 3 files, no impossibilities.
 
- 
 # 13 files, no impossibilities in 2 directories.
 
 # Implicit Rules
@@ -311,7 +284,7 @@ all: bin/main
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-27 20:16:07.011985577
+#  Last modified 2022-05-27 20:16:07
 #  File has been updated.
 #  Successfully updated.
 
@@ -339,14 +312,14 @@ clean:
 # Not a target:
 src/main.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-29 15:02:36.917842
+#  Last modified 2022-05-29 21:58:10
 #  File has been updated.
 #  Successfully updated.
 
 bin/main: src/main.cpp
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: ''
-#  Last modified 2022-05-29 15:01:59.357839857
+#  Last modified 2022-05-29 21:56:06
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
@@ -371,6 +344,7 @@ bin/main: src/main.cpp
 	$(CXX) $(CXX_FLAGS) -I$(INCLUDE) -L$(LIB) $^ -o $@ $(LIBRARIES)
 
 # files hash-table stats:
+ 
 # Load=8/1024=1%, Rehash=0, Collisions=0/26=0%
 # VPATH Search Paths
 
@@ -384,6 +358,6 @@ bin/main: src/main.cpp
 # strcache performance: lookups = 36 / hit rate = 44%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=2/36=6%
-# Finished Make data base on Sun May 29 21:53:18 2022
+# Finished Make data base on Mon May 30 16:12:21 2022
 
  

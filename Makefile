@@ -9,9 +9,6 @@ LIB		:= lib
 LIBRARIES	:= -lsfml-graphics -lsfml-window -lsfml-system
 EXECUTABLE	:= main
 
-
-all: $(BIN)/$(EXECUTABLE)
-
 run: clean all
 	clear
 	./$(BIN)/$(EXECUTABLE)
@@ -21,3 +18,5 @@ $(BIN)/$(EXECUTABLE): $(SRC)/*.cpp
 
 clean:
 	-rm $(BIN)/*
+
+all: $(BIN)/$(EXECUTABLE)
